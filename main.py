@@ -97,4 +97,5 @@ async def ping(ctx, pass_context=True):
   await ctx.send(embed=embed)
 
 keep_alive()
+TOKEN = os.environ['TOKEN']
 client.run(TOKEN)
